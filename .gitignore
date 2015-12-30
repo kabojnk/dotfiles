@@ -94,3 +94,5 @@ irclogs
 uninstall_homebrew.sh
 x86
 
+.zsh_history
+.zcompdump-*
