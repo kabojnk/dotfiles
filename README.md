@@ -26,9 +26,9 @@ If you don't know/care what tmux is, feel free to skip this step. For more info 
 
 `brew install tmux && brew install reattach-to-user-namespace`
 
-Keep in mind that *if* you _do_ install `tmux`, *you also need to install `reattach-to-user-namespace` for `tmux` to work on OS X!*
+Keep in mind that **if** you _do_ install `tmux`, **you also need to install `reattach-to-user-namespace` for `tmux` to work on OS X!**
 
-*By the way, your ^b shortcut for tmux is now ^j*
+**By the way, your `^b` shortcut for tmux is now `^j`**
 
 #### Patched Fonts from Powerline (optional)
 
@@ -68,3 +68,7 @@ As this is forked from [Chris Hunt's dot files project](https://github.com/chris
 Provided that this is in your `~` directory somehow, the easiest way to go about this is either in Terminal.app or iTerm2, go to your preferences and find a field for `command` and type in `zsh`.
 
 Bonus: If you have `tmux` installed, it will automatically re-attach to an existing session, or create a new session if an existing one isn't found.
+
+## tmux special notes
+
+I sort of mentioned above, but the usual `^b` binding for tmux is now `^j`, mainly because that's the way Chris has it in his stuff. I actually kind of like the new binding.
