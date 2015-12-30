@@ -28,6 +28,8 @@ If you don't know/care what tmux is, feel free to skip this step. For more info 
 
 Keep in mind that *if* you _do_ install `tmux`, *you also need to install `reattach-to-user-namespace` for `tmux` to work on OS X!*
 
+*By the way, your ^b shortcut for tmux is now ^j*
+
 #### Patched Fonts from Powerline (optional)
 
 This is if you want to use some of the fancy zsh themes that have neato font thingies. 
