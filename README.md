@@ -1,6 +1,6 @@
 # My Dot Files for OS X
 
-This is like heavily forked from [Chris Hunt's dot files project](https://github.com/chrishunt/dot-files).  There are some slight changes in mine, and some things that I wante to note that weren't explicit in other instructions. I don't expect anyone to really use these, but I figured I'd flesh out a longer README to give some information to anyone diving into updating or redoing his/her dot files after a number of years years.
+This is like heavily [and manually] forked from [Chris Hunt's dot files project](https://github.com/chrishunt/dot-files).  There are some slight changes in mine, and some things that I wante to note that weren't explicit in other instructions. I don't expect anyone to really use these, but I figured I'd flesh out a longer README to give some information to anyone diving into updating or redoing his/her dot files after a number of years years.
 
 ## Should you be using this?
 
@@ -27,6 +27,8 @@ If you don't know/care what tmux is, feel free to skip this step. For more info 
 `brew install tmux && brew install reattach-to-user-namespace`
 
 Keep in mind that *if* you _do_ install `tmux`, *you also need to install `reattach-to-user-namespace` for `tmux` to work on OS X!*
+
+*By the way, your ^b shortcut for tmux is now ^j*
 
 #### Patched Fonts from Powerline (optional)
 
