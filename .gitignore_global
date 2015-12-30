@@ -1,0 +1,9 @@
+*~
+.DS_Store
+source_archive
+protosite/source/.sass-cache
+source/fuel/app/logs
+app/ServiceProviderApp/.gradle/1.12/taskArtifacts
+app/ServiceProviderApp/app/build
+app/ServiceProviderApp/build
+
