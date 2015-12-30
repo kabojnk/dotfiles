@@ -14,11 +14,13 @@
 $
 
 # Command Line History (newest to oldest):
-:wq
-:q!
-:wq!
-:quit!
 :q
+:q!
+:.q
+:wq!
+:w
+:wq
+:quit!
 :reg
 :"1p
 :"0p
@@ -32,8 +34,6 @@ $
 :"1 d
 :help registers
 :2p
-:"2p"
-:"2p
 
 # Search String History (newest to oldest):
 ? \<192\>
@@ -79,18 +79,21 @@ $
 	4
 
 # File marks:
-'0  5  0  ~/.git/MERGE_MSG
-'1  1  0  ~/.bash_profile
-'2  4  80  ~/.bash_profile
-'3  6  0  ~/.bash_profile
-'4  6  0  ~/Documents/Projects/blackomen.org/source/tbo-4.0/package.json
-'5  63  0  ~/Documents/Work/Black Pixel/Storehouse-Android/.git/COMMIT_EDITMSG
-'6  1  0  ~/Documents/Projects/blackomen.org/source/keystone4/package.json
-'7  1  0  ~/Documents/Projects/ojnkbot/ojnkbot.js
-'8  1  0  ~/Documents/Work/Black Pixel/Starbucks/source/starbucks-android-us/starbucks/src/main/java/com/starbucks/mobilecard/drawer/MDNavigationDrawer.java
-'9  1  0  ~/Documents/Work/Black Pixel/Starbucks/source/starbucks-android-us/starbucks/src/main/java/com/starbucks/mobilecard/gift/fragment/GiftComposeFragment.java
+'0  1  0  ~/test.c
+'1  5  27  ~/Desktop/test.c
+'2  5  0  ~/.git/MERGE_MSG
+'3  1  0  ~/.bash_profile
+'4  4  80  ~/.bash_profile
+'5  6  0  ~/.bash_profile
+'6  6  0  ~/Documents/Projects/blackomen.org/source/tbo-4.0/package.json
+'7  63  0  ~/Documents/Work/Black Pixel/Storehouse-Android/.git/COMMIT_EDITMSG
+'8  1  0  ~/Documents/Projects/blackomen.org/source/keystone4/package.json
+'9  1  0  ~/Documents/Projects/ojnkbot/ojnkbot.js
 
 # Jumplist (newest first):
+-'  1  0  ~/test.c
+-'  5  27  ~/Desktop/test.c
+-'  1  0  ~/Desktop/test.c
 -'  5  0  ~/.git/MERGE_MSG
 -'  1  0  ~/.git/MERGE_MSG
 -'  1  0  ~/.bash_profile
@@ -184,14 +187,19 @@ $
 -'  1  0  ~/Documents/Projects/WAPP/scripts/mysql_export.sh
 -'  3  0  ~/Documents/Work/Left Arm Right Arm/maryway/website/.bowerrc
 -'  1  0  ~/Documents/Work/Left Arm Right Arm/maryway/website/.bowerrc
--'  6  79  ~/Documents/Projects/WAPP/scripts/mysql_export.sh
--'  1  0  ~/Documents/Projects/WAPP/scripts/mysql_export.sh
--'  6  79  ~/Documents/Projects/WAPP/scripts/mysql_export.sh
--'  1  0  ~/Documents/Projects/WAPP/scripts/mysql_export.sh
--'  3  0  ~/Documents/Projects/match.gg/source/website/.bowerrc
--'  1  0  ~/Documents/Projects/match.gg/source/website/.bowerrc
+-'  1  0  ~/test.c
 
 # History of marks within files (newest to oldest):
+
+> ~/test.c
+	"	1	0
+
+> ~/Desktop/test.c
+	"	5	27
+	^	5	28
+	.	5	28
+	+	6	0
+	+	5	28
 
 > ~/.git/MERGE_MSG
 	"	5	0
