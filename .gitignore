@@ -97,3 +97,6 @@ x86
 .zsh_history
 .zcompdump-*
 .joe_state
+.viminfo
+screen_hard_status_screen.txt
+.screenrc
