@@ -6,7 +6,7 @@ This is like heavily [and manually] forked from [Chris Hunt's dot files project]
 
 Like I said, probably not. But if you're lazy, feel free to use it. If you're technical-minded, I'd suggest forking from [Chris Hunt's dot files project](https://github.com/chrishunt/dot-files) instead like I did.
 
-## This is for zsh for a shell
+## This is for a zsh shell
 
 Likewise, it uses [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh/) for themes and all sorts of goodness. If you're familiar with bash, your commands will work just fine in zsh. Zsh is like bash on steroids.
 
