@@ -52,19 +52,19 @@ Feel free to delete the cloned directory after you're done.
 
 I like this better than Terminal.app, but it's not a deal-breaker.
 
-### 6. Files to Edit (step 2 of 2)
+### Files to Edit (step 2 of 2)
 
 Here are some files to edit before doing anything
 
-#### 7. .gitignore
+#### 1. .gitignore
 
 Everyone's home directory is different. My .gitignore is pretty useless on another machine.  I decided to alter it on my own (I technically started my own repo and added the dot files and submodules in after the fact, but I don't recommend that). It's easier just to do an `ls` of your `~` directory and paste in all of the stuff there, and then erase the files you _do_ want committed.
 
-#### 8. .gitconfig
+#### 2. .gitconfig
 
 These should be changed. You'd want your own config options in here (like your git credentials, github username, etc).
 
-#### 9. .zshrc
+#### 3. .zshrc
 
 You will probably want to specify your own zsh theme, and if you're not a fan of `tmux` you can swap it out for `screen` here. If you're not using `boxen`, remove this line from the file, too, if you don't want a warning message to pop up every time you start a new session: `source /opt/boxen/env.sh`
 
