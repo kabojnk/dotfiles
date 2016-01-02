@@ -1,5 +1,7 @@
 # My Dot Files for OS X
 
+![screenshot](https://cloud.githubusercontent.com/assets/296099/12076078/65927d6a-b150-11e5-95a2-1a7c69d31b62.png)
+
 This is like heavily [and manually] forked from [Chris Hunt's dot files project](https://github.com/chrishunt/dot-files).  There are some slight changes in mine, and some things that I wante to note that weren't explicit in other instructions. I don't expect anyone to really use these, but I figured I'd flesh out a longer README to give some information to anyone diving into updating or redoing his/her dot files after a number of years years.
 
 ## Should you be using this?
