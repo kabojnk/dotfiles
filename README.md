@@ -18,11 +18,11 @@ Likewise, it uses [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh/) for th
 
 This depends on some software to really work well.
 
-#### homebrew
+#### 1. homebrew
 
 If you haven't already, you will need to [install homebrew](http://brew.sh/). Lets you install all sorts of nice *nixy stuff on OS X, including tmux.
 
-#### tmux and reattach-to-user-namespace
+#### 2. tmux and reattach-to-user-namespace
 
 If you don't know/care what tmux is, feel free to skip this step. For more info on how to use tmux, [go here](http://code.tutsplus.com/tutorials/intro-to-tmux--net-33889).
 
@@ -32,13 +32,13 @@ Keep in mind that **if** you _do_ install `tmux`, **you also need to install `re
 
 **By the way, your `^b` prefix shortcut for tmux is now `^j`**
 
-#### tmp (tmux plugin manager)
+#### 3. tpm (tmux plugin manager)
 
 Command to do this: `^j + I` (that is a capital I, not lowercase; also assumes you kept your prefix to `^j`).
 
 This will download and install all of the `tpm` plugins that were listed to be autolaoded in `.tmux.cfg`. The installed plugins will go into `~/.tmux/plugins`. If you choose not to install the plugins, it will should not break anything. I only use it with the [maglev](https://github.com/caiogondim/maglev) tmux theme.
 
-#### Patched Fonts from Powerline (optional, but recommended)
+#### 4. Patched Fonts from Powerline (optional, but recommended)
 
 This is if you want to use some of the fancy zsh themes (like [bullet-train](https://github.com/caiogondim/bullet-train-oh-my-zsh-theme) and tmux themes (like [maglev](https://github.com/caiogondim/maglev)) that have neato font thingies, like special icons.
 
@@ -48,23 +48,23 @@ Go ahead and clone this project temporarily and install with the following comma
 
 Feel free to delete the cloned directory after you're done.
 
-#### iTerm (optional)
+#### 5. iTerm (optional)
 
 I like this better than Terminal.app, but it's not a deal-breaker.
 
-### Files to Edit (step 2 of 2)
+### 6. Files to Edit (step 2 of 2)
 
 Here are some files to edit before doing anything
 
-#### .gitignore
+#### 7. .gitignore
 
 Everyone's home directory is different. My .gitignore is pretty useless on another machine.  I decided to alter it on my own (I technically started my own repo and added the dot files and submodules in after the fact, but I don't recommend that). It's easier just to do an `ls` of your `~` directory and paste in all of the stuff there, and then erase the files you _do_ want committed.
 
-#### .gitconfig
+#### 8. .gitconfig
 
 These should be changed. You'd want your own config options in here (like your git credentials, github username, etc).
 
-#### .zshrc
+#### 9. .zshrc
 
 You will probably want to specify your own zsh theme, and if you're not a fan of `tmux` you can swap it out for `screen` here. If you're not using `boxen`, remove this line from the file, too, if you don't want a warning message to pop up every time you start a new session: `source /opt/boxen/env.sh`
 
