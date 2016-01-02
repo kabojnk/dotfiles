@@ -28,11 +28,17 @@ If you don't know/care what tmux is, feel free to skip this step. For more info 
 
 Keep in mind that **if** you _do_ install `tmux`, **you also need to install `reattach-to-user-namespace` for `tmux` to work on OS X!**
 
-**By the way, your `^b` shortcut for tmux is now `^j`**
+**By the way, your `^b` prefix shortcut for tmux is now `^j`**
 
-#### Patched Fonts from Powerline (optional)
+#### tmp (tmux plugin manager)
 
-This is if you want to use some of the fancy zsh themes that have neato font thingies. 
+Command to do this: `^j + I` (that is a capital I, not lowercase; also assumes you kept your prefix to `^j`).
+
+This will download and install all of the `tpm` plugins that were listed to be autolaoded in `.tmux.cfg`. The installed plugins will go into `~/.tmux/plugins`. If you choose not to install the plugins, it will should not break anything. I only use it with the [maglev](https://github.com/caiogondim/maglev) tmux theme.
+
+#### Patched Fonts from Powerline (optional, but recommended)
+
+This is if you want to use some of the fancy zsh themes (like [bullet-train](https://github.com/caiogondim/bullet-train-oh-my-zsh-theme) and tmux themes (like [maglev](https://github.com/caiogondim/maglev)) that have neato font thingies, like special icons.
 
 Go ahead and clone this project temporarily and install with the following command.
 

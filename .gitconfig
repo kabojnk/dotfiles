@@ -3,8 +3,6 @@
   email = kabojnk@gmail.com
 [github]
   user = kabojnk
-[credential]
-  helper = /opt/boxen/bin/boxen-git-credential
 [hub]
   protocol = https
 [core]
@@ -26,11 +24,11 @@
 [merge]
   summary = true
 [mergetool "sourcetree"]
-  cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-  trustExitCode = true
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
 [difftool "sourcetree"]
-  cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-  path = 
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
 [color]
   diff = auto
   status = auto

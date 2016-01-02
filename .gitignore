@@ -100,3 +100,4 @@ x86
 .viminfo
 screen_hard_status_screen.txt
 .screenrc
+.vim/.netrwhist

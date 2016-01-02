@@ -7,7 +7,7 @@ PATH=$PATH:/Library/android-sdk-macosx/platform-tools:/usr/local/bin
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="amuse"
+ZSH_THEME="bullet-train"
 
 # Disable weekly update checks
 DISABLE_AUTO_UPDATE="true"
@@ -36,6 +36,6 @@ unsetopt correct_all
 # Always work in a tmux session if tmux is installed
 if which tmux 2>&1 >/dev/null; then
   if [ $TERM != "screen-256color" ] && [  $TERM != "screen" ]; then
-    tmux attach -t hack || tmux new -s hack; exit
+    tmux attach -t raziel || tmux new -s raziel; exit
   fi
 fi
