@@ -30,40 +30,40 @@
 	url = https://github.com/tpope/vim-liquid.git
 [submodule ".oh-my-zsh"]
 	path = .oh-my-zsh
-	url = git://github.com/robbyrussell/oh-my-zsh.git
+	url = https://github.com/robbyrussell/oh-my-zsh.git
 [submodule ".vim/bundle/colors-base16"]
 	path = .vim/bundle/colors-base16
 	url = https://github.com/chriskempson/base16-vim.git
 [submodule ".vim/bundle/ag-vim"]
 	path = .vim/bundle/ag-vim
-	url = git://github.com/epmatsw/ag.vim.git
+	url = https://github.com/epmatsw/ag.vim.git
 [submodule ".vim/bundle/vim-javascript"]
 	path = .vim/bundle/vim-javascript
-	url = git://github.com/jelera/vim-javascript-syntax.git
+	url = https://github.com/jelera/vim-javascript-syntax.git
 [submodule ".vim/bundle/xterm-color-table"]
 	path = .vim/bundle/xterm-color-table
-	url = git@github.com:chrishunt/xterm-color-table.vim.git
+	url = https://github.com/chrishunt/xterm-color-table.vim.git
 [submodule ".vim/bundle/gist-vim"]
 	path = .vim/bundle/gist-vim
-	url = git@github.com:mattn/gist-vim.git
+	url = https://github.com/mattn/gist-vim.git
 [submodule ".vim/bundle/webapi-vim"]
 	path = .vim/bundle/webapi-vim
-	url = git@github.com:mattn/webapi-vim.git
+	url = https://github.com/mattn/webapi-vim.git
 [submodule ".vim/bundle/vim-endwise"]
 	path = .vim/bundle/vim-endwise
-	url = git@github.com:tpope/vim-endwise.git
+	url = https://github.com/tpope/vim-endwise.git
 [submodule ".vim/bundle/vim-fugitive"]
 	path = .vim/bundle/vim-fugitive
-	url = git://github.com/tpope/vim-fugitive.git
+	url = https://github.com/tpope/vim-fugitive.git
 [submodule ".vim/bundle/puppet-syntax-vim"]
 	path = .vim/bundle/puppet-syntax-vim
-	url = git@github.com:puppetlabs/puppet-syntax-vim.git
+	url = https://github.com:puppetlabs/puppet-syntax-vim.git
 [submodule ".vim/bundle/vim-repeat"]
 	path = .vim/bundle/vim-repeat
-	url = git@github.com:tpope/vim-repeat.git
+	url = https://github.com/tpope/vim-repeat.git
 [submodule ".vim/bundle/vim-abolish"]
 	path = .vim/bundle/vim-abolish
-	url = git@github.com:tpope/vim-abolish.git
+	url = https://github.com/tpope/vim-abolish.git
 [submodule ".vim/bundle/vim-ruby"]
 	path = .vim/bundle/vim-ruby
 	url = https://github.com/vim-ruby/vim-ruby.git
@@ -84,7 +84,7 @@
 	url = https://github.com/rizzatti/dash.vim.git
 [submodule ".vim/bundle/mustache"]
 	path = .vim/bundle/mustache
-	url = git://github.com/mustache/vim-mustache-handlebars.git
+	url = https://github.com/mustache/vim-mustache-handlebars.git
 [submodule ".vim/bundle/ember"]
 	path = .vim/bundle/ember
 	url = https://github.com/dsawardekar/ember.vim.git
@@ -93,7 +93,7 @@
 	url = https://github.com/guns/vim-clojure-static.git
 [submodule ".vim/bundle/html5-syntax"]
 	path = .vim/bundle/html5-syntax
-	url = git://github.com/othree/html5-syntax.vim.git
+	url = https://github.com/othree/html5-syntax.vim.git
 [submodule ".vim/bundle/unite"]
 	path = .vim/bundle/unite
 	url = https://github.com/Shougo/unite.vim.git
@@ -103,3 +103,9 @@
 [submodule ".vim/bundle/ctrlpvim"]
 	path = .vim/bundle/ctrlpvim
 	url = https://github.com/ctrlpvim/ctrlp.vim.git
+[submodule ".tmux/plugins/maglev"]
+	path = .tmux/plugins/maglev
+	url = https://github.com/caiogondim/maglev.git
+[submodule ".tmux/plugins/tpm"]
+	path = .tmux/plugins/tpm
+	url = https://github.com/tmux-plugins/tpm.git
