@@ -101,3 +101,14 @@ x86
 screen_hard_status_screen.txt
 .screenrc
 .vim/.netrwhist
+.tmux/plugins/maglev
+.tmux/plugins/tmux-continuum
+.tmux/plugins/tmux-copycat
+.tmux/plugins/tmux-cpu
+.tmux/plugins/tmux-open
+.tmux/plugins/tmux-pain-control
+.tmux/plugins/tmux-resurrect
+.tmux/plugins/tmux-sensible
+.tmux/plugins/tmux-yank
+.tmux/resurrect
+.oh-my-zsh
