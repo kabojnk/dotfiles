@@ -103,9 +103,6 @@
 [submodule ".vim/bundle/ctrlpvim"]
 	path = .vim/bundle/ctrlpvim
 	url = https://github.com/ctrlpvim/ctrlp.vim.git
-[submodule ".tmux/plugins/maglev"]
-	path = .tmux/plugins/maglev
-	url = https://github.com/caiogondim/maglev.git
 [submodule ".tmux/plugins/tpm"]
 	path = .tmux/plugins/tpm
 	url = https://github.com/tmux-plugins/tpm.git
